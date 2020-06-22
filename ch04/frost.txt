@@ -5,3 +5,12 @@
 5    To where it bent in the undergrowth;
 6
 7 Excerpt from The Road Not Taken by Robert Frost
+
+pp3.145ll => grep -P '<\d*\.\d*>' frost.txt
+
+314 is = 314 => grep -P '(\d+).*=.*\1' frost.txt
+
+1 ha ha 2 => grep -P '^\d.*\d$' frost.txt
+
+10.0.0.25 10.0.0.134 => grep -P '10\.0\.0\.(25|134)' frost.txt
+
