@@ -20,3 +20,4 @@ else
     OS=Linux
 fi
 echo $OS
+echo `uname`
